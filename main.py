@@ -34,7 +34,6 @@ def download_audio_from_url(video_url, output_dir):
     wav_path = f"{base_path}.wav"
 
     ydl_opts = {
-        'extractor_args': {'youtube': {'skip': ['dash', 'hls']}},
         'format': 'bestaudio/best',
         'outtmpl': base_path,
         'postprocessors': [{
