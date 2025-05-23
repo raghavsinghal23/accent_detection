@@ -3,3 +3,4 @@ yt-dlp
 torchaudio
 transformers
 numpy
+hf_xet
